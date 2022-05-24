@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right ,#FEAC5E,#C779D0,#4BC0C8);
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.500);
+}
+.butn{
+    background-color: #C779D0;
+    background-image: linear-gradient(to right ,#C779D0,#E49494);
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+.butn:hover{
+    color: #fff!important;
+    transform: scale(1.03);
+}
+.user-name{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.post-user{
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+}
+.post-icons{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: rgba(0,0,0,0.7);
+}
+.post-icons .fa-trash-can:hover{
+    color: rgba(226, 36, 36, 0.932)!important;
+}
